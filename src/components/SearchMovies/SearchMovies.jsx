@@ -35,7 +35,7 @@ const SearchMovies = () => {
           className="form-control mb-3"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for a movie..."
+          placeholder="Введите название фильма на английском языке..."
           style={{ maxWidth: '500px', margin: '0 auto' }}
         />
         <button type="submit" className="btn btn-primary mr-2" style={{ minWidth: '120px', marginRight: '10px' }}>Поиск</button>
