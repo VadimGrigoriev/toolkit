@@ -3,7 +3,7 @@ import SearchMovies from './components/SearchMovies/SearchMovies';
 import MovieDetails from './components/MoviesDetails/MovieDetails';
 import Favorites from './components/Favorites/Favorites';
 import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
